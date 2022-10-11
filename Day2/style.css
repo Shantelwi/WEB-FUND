@@ -1,0 +1,30 @@
+h1 {
+    background-color : pink;
+    color : white;
+    text-align: center;
+    border: 1px dashed black;
+    border-radius: 15px;
+}
+.box{
+    border:1px solid pink;
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin: 20px 10px;
+    padding: 20px
+    vertical-align: top;
+
+}
+.box p{
+    color:aquamarine;
+}
+#bold-text{
+    font-weight:bold;
+}
+.container{
+    text-align: center;
+}
+*{
+    outline: 1px solid red;
+}

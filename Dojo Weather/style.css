@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+nav{
+    height: 80px;
+    background-color: #A0C5F8;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.title{
+    font-size: 1.5rem;
+    color: #fff;
+}
+ul{
+    display: flex;
+    justify-content:space-around;
+    font-size: 1.5rem;
+    list-style-type: none;
+}
+.nav-links{
+    width: 50%;
+}
+.nav-links a {
+    color: #fff;
+    text-decoration: none
+}
+.header{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 15px;
+    border-bottom: 1px solid #000;
+}
+h2{
+    font-size: 1.5rem;
+}
+.boxes{
+    display: flex;
+    justify-content:space-between;
+    margin: 20px;
+}
+.box-1, .box-2, .box-3, .box-4{
+    background-color: #EEEEEE;
+    width: 150px;
+    height: 250px;
+}
+img{
+    border-radius: 50%;
+    height: 100px;
+    margin-left: 25px;
+}
+h3{
+    text-align: center;
+    margin: 10px;
+}
+p{
+    text-align: center;
+    margin: 10px;
+}
+.temperatures {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.high, .low {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.high::after, .low::after {
+    content: "°";
+}
+
+.high {
+    color: #cf2a27;
+}
+
+.low {
+    color: #2b78e4;
+}
+footer{
+    border: 2px solid #000;
+    margin: 20px;
+    display: flex;
+    justify-content:space-around;
+    background-color: #EEEEEE;
+    width: 960px;
+}
+.cookie {
+    border-radius: 50%;
+    height: 80px;
+}
+.message {
+    margin-right: 50px;
+}
+button{
+    height: 40px;
+    width: 100px;
+    margin: 30px;
+    background-color: #A0C5F8;
+    box-shadow: 4px 4px;
+}

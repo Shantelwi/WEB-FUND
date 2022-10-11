@@ -1,0 +1,21 @@
+.container {
+    background-color:pink;
+    width: 960px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    margin:0 auto;
+
+}
+.col{
+    color:white;
+    background-color:black;
+    padding: 10px;
+    width: 250px;
+}
+.col-2{
+    color: white;
+    background-color:grey;
+    padding: 10px; 
+    width: 250px;
+}
